@@ -95,7 +95,10 @@ body {
     transform: scale(1.1);
   }
   
-
+.name{
+    font-size: 3rem;
+    padding-top: 4rem;
+}
 
 footer {
 
