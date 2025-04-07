@@ -1,0 +1,76 @@
+body {
+    font-family: "Noto Sans", sans-serif;
+    /*background-color: #FBE2DA;*/
+    background-image: linear-gradient(to bottom right, white, #F7B2A1, white);
+
+}
+
+.navbar {
+    position: sticky;
+}
+
+.contact-section {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.form-container {
+    max-width: 600px;
+    background-color: #EBE9E1;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.form {
+    padding-left: 100px;
+}
+
+.demo{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+    margin: 20px;
+
+}
+
+.demo-text {
+    color: #474747;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.contact-header {
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact-text {
+    font-size: 1rem;
+    margin-top: 10px;
+    text-align: center;
+    margin: 20px;
+}
+.form-control {
+    border-color: #E43D12;
+}
+.submit-btn {
+    background-color: black;
+    color: white;
+}
+
+.terms {
+    font-size: 13px;
+    text-align: center;
+    margin: 10px;
+    color: #474747;
+}
+
+.submit-btn:hover {
+    background-color: #E43D12;
+    color: white;
+}
+
