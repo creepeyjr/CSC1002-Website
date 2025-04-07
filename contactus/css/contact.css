@@ -1,0 +1,57 @@
+body {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.contact-section {
+    max-width: 900px;
+    margin: 90px auto 30px;
+    padding: 20px;
+    font-weight: 500;
+}
+
+.contact-header {
+  color:#E43D12;
+  font-size: 4rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+a {
+  color: #E43D12;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  .submit {
+    background-color: #D6536D;
+    color: white;
+  }
+
+  .container {
+    border-radius: 30px;
+    padding: 20px;
+  }
+
+.box {
+    background-color: #EBE9E1;
+    box-shadow: 0px 0px 50px #E43D12;
+    margin-bottom: 50px;
+}
+
+
+footer {
+
+  background-color: #EBE9E1;
+  color: #E43D12;
+  border-top: solid hsl(12, 85%, 48%, 50%) 0.5px;
+}

@@ -1,0 +1,123 @@
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+
+.navbar {
+    position: sticky;
+}
+
+a {
+    color: #E43D12;
+}
+
+.contact-section {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.form-container {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.contact-header {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.contact-text {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+.fixed-image {
+    width: 600px;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    box-shadow: 0px 0px 30px #E43D12;
+}
+
+.card-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.custom-card {
+    background-color: #fff;
+    border: none;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 1rem;
+    height: 370px;
+    
+}
+
+.card-image {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.adam {
+    border: solid 0.5px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 15px 0;
+}
+
+
+.col {
+    margin-right: -3rem;
+}
+
+.social-icons {
+    display: flex; 
+    gap: 10px;        
+    justify-content: center;
+    margin-top: 1rem; 
+  }
+  
+  .social-icons img {
+    width: 20px;      
+    transition: transform 0.2s;
+  }
+  
+  .social-icons img:hover {
+    transform: scale(1.1);
+  }
+  
+.name{
+    font-size: 3rem;
+    padding-top: 4rem;
+}
+
+.guy{
+    max-width: 500px;
+}
+
+.pic {
+    padding-left: 8rem;
+}
+
+footer {
+
+    background-color: #EBE9E1;
+    color: #E43D12;
+}
