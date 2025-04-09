@@ -1,264 +1,269 @@
 
+
 body {
-  font-family: "Noto Sans", sans-serif;
-}
-
-.navbar {
-  position: sticky;
-}
-
-.container {
-  width: 100%;
-  max-width: none;
-}
-
-
-.market-content {
-  display: flex;
-  align-items: flex-start;
-  gap: 40px;
-  padding: 0 50px;
-  margin-top: 60px;
-}
-
-.market-text-container {
-  flex: 1;
-}
-
-.market-header {
-  font-size: 5rem;
-  font-weight: bold;
-  margin-bottom: 20px;
-  text-align: left;
-  margin-left: 50;
-}
-
-.market-text {
-  margin-left: 80px;
-  font-size: 1rem;
-  color: #555;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  max-width: 80%;
-}
-
-.market-image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.market-img {
-  margin-top: 25px;
-  width: 100%;
-  max-width: 500px;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,1);
-  margin-bottom: 50px;
-}
-
-.trends-content {
-  display: flex;
-  justify-content: space-between; /* Ensures proper spacing */
-  align-items: flex-start; /* Aligns content to the top */
-  padding: 0 50px;
-  margin-top: 60px;
-}
-
-.trends-text-container {
-  flex: 1;
-  max-width: 60%;
-  text-align: right; /* Ensures text stays aligned to the right */
-}
-
-.trends-header {
-  font-size: 5rem;
-  font-weight: bold;
-  margin-bottom: 20px;
-  text-align: right;
-  margin-right: 20px;
-}
-
-.trends-text {
-  font-size: 1rem;
-  color: #555;
-  margin-top: 10px;
-  margin-bottom: 15px;
-  max-width: 75%;
-  text-align: right;
-  margin-right: 60px;
-  float: right;
-}
-
-.market-image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.trends-img {
-  margin-top: 50px;
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-  margin-bottom: 70px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
-}
-
-.test-header {
-font-size: 4rem;
-font-weight: bold;
-margin-bottom: 10px;
-text-align: center;
-margin-top: 50px;
-}
-
-.test-text {
-max-width: 50%;
-min-width: 50%;
-font-size: 1rem;
-color: #555;
-margin-top: 10px;
-margin-bottom: 15px;
-text-align: center; 
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
-
-.testimonial-container {
-display: flex;
-justify-content: center;
-gap: 20px;
-padding: 50px 10px;
-flex-wrap: wrap;
-}
-
-
-.testimonial-card {
-border-radius: 10px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-padding: 20px;
-max-width: 500px;
-text-align: center;
-}
-
-
-.testimonial-image {
-width: 300px;
-height: 300px;
-border-radius: 50%;
-margin-bottom: 15px;
-}
-
-.testimonial-name {
-font-size: 1.2rem;
-color: #333;
-margin-bottom: 10px;
-}
-
-.testimonial-info {
-font-size: 1rem;
-color: darkgoldenrod;
-text-decoration: underline;
-}
-
-.testimonial-text {
-font-size: 1rem;
-color: #555;
-font-style: italic;
-}
-
-.why-text {
-max-width: 60%;
-min-width: 60%;
-font-size: 1.2rem;
-color: #555;
-margin-top: 10px;
-margin-bottom: 15px;
-text-align: center; 
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
-
-.why-image {
-flex: 1;
-display: flex;
-justify-content: center;
-align-items: flex-start;
-}
-
-.why-img {
-margin-top: 50px;
-text-align: center;
-width: 100%;
-max-width: 600px;
-height: auto;
-margin-bottom: 70px;
-border-radius: 8px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
-}
-
-footer {
-background-color: #dce0e5;
-color: black;
-}
-
-@media (max-width: 1200px) {
-  .market-content {
-    flex-direction: column;
-    padding: 10px;
+    font-family: "Noto Sans", sans-serif;
+    background-image: linear-gradient(to bottom right, #FDEFED, #f6c0ba, #FDEFED, white, #F5ADA3)
   }
-
-  .market-text-container, .trends-text-container {
+  
+  .navbar {
+    position: sticky;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: none;
+  }
+  
+  
+  .market-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 0 50px;
+    margin-top: 60px;
+  }
+  
+  .market-text-container {
+    flex: 1;
+  }
+  
+  .market-header {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 50;
+  }
+  
+  .market-text {
+    margin-left: 80px;
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    max-width: 80%;
+  }
+  
+  .market-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .market-img {
+    margin-top: 25px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,1);
+    margin-bottom: 50px;
+  }
+  
+  .trends-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 50px;
+    margin-top: 60px;
+  }
+  
+  .trends-text-container {
+    flex: 1;
+    max-width: 60%;
+    text-align: right;
+  }
+  
+  .trends-header {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: right;
+    margin-right: 20px;
+  }
+  
+  .trends-text {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    max-width: 75%;
+    text-align: right;
+    margin-right: 60px;
+    float: right;
+  }
+  
+  .market-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .trends-img {
+    margin-top: 50px;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 70px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  }
+  
+  .test-header {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .test-text {
+    max-width: 50%;
+    min-width: 50%;
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .testimonial-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 10px;
+    flex-wrap: wrap;
+  }
+  
+  
+  .testimonial-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 500px;
     text-align: center;
   }
-
-  .market-header, .trends-header {
-    font-size: 2.5rem;
-  }
-
-  .market-img {
-    max-width: 100%;
-  }
-
-  .trends-img {
-    max-width: 100%;
-  }
-
-  .testimonial-card {
-    max-width: 100%;
-  }
-
+  
+  
   .testimonial-image {
-    width: 120px;
-    height: 120px;
+    width: 300px;
+    border-style: solid;
+    border-width: 3px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 15px;
   }
-}
-
-@media (max-width: 768px) {
-  .market-header {
-    font-size: 2rem;
+  
+  .testimonial-name {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
   }
-
-  .market-text, .test-text, .why-text {
-    font-size: 0.9rem;
+  
+  .testimonial-info {
+    font-size: 1rem;
+    color: darkgoldenrod;
+    text-decoration: underline;
   }
-
-  .testimonial-card {
-    max-width: 90%;
+  
+  .testimonial-text {
+    font-size: 1rem;
+    color: #555;
+    font-style: italic;
   }
-
+  
+  .why-text {
+    max-width: 60%;
+    min-width: 60%;
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .why-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
   .why-img {
-    max-width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 70px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
   }
-
+  
   footer {
-    padding: 10px 0;
+    background-color: #474747;
+    color: white;
   }
-}
+  
+  @media (max-width: 1200px) {
+    .market-content {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .market-text-container, .trends-text-container {
+      text-align: center;
+    }
+  
+    .market-header, .trends-header {
+      font-size: 2.5rem;
+    }
+  
+    .market-img {
+      max-width: 100%;
+    }
+  
+    .trends-img {
+      max-width: 100%;
+    }
+  
+    .testimonial-card {
+      max-width: 100%;
+    }
+  
+    .testimonial-image {
+      width: 120px;
+      height: 120px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .market-header {
+      font-size: 2rem;
+    }
+  
+    .market-text, .test-text, .why-text {
+      font-size: 0.9rem;
+    }
+  
+    .testimonial-card {
+      max-width: 90%;
+    }
+  
+    .why-img {
+      max-width: 100%;
+    }
+  
+    footer {
+      padding: 10px 0;
+    }
+  }
+  
