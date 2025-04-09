@@ -1,0 +1,147 @@
+body {
+    font-family: "Noto Sans", sans-serif;
+    background-image: linear-gradient(to bottom right, #FDEFED, #f6c0ba, #FDEFED, white, #F5ADA3)
+}
+
+/* Text CSS */
+.col h1 {
+    size: 150%;
+    position: center;
+}
+
+/* Link List CSS */
+.linkList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem auto;
+}
+  
+.linkList a {
+    color: #ff2e88;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid #ffbdd9;
+    border-radius: 1rem;
+    background-color: #fff0f6;
+    transition: background-color 0.2s ease;
+}
+  
+.linkList a:hover {
+    background-color: #ffd6e8;
+ }
+  
+
+#Logo {
+    border-radius: 25px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+.myTextBox {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #ff2e88;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 2px solid #ffe0ef;
+    border-radius: 2rem;
+    box-shadow: 0 8px 20px rgba(255, 46, 136, 0.2);
+    margin: 2rem auto;
+    width: fit-content;
+    max-width: 90%;
+    box-shadow: 0 12px 30px rgba(255, 46, 136, 0.3);
+}
+  
+/* Coloum CSS */
+.container {
+    padding-top: 50px;
+}
+
+.navbar {
+    position: sticky;
+}
+
+.contact-section {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.form-container {
+    max-width: 500px;
+    background-color: #EBE9E1;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.weights {
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.form {
+    padding-left: 100px;
+}
+
+.demo{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+    padding-bottom: 10px;
+
+
+}
+
+.demo-text {
+    color: #474747;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.contact-header {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+
+
+}
+
+.contact-text {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+    margin: 20px;
+    font-weight: 600;
+}
+.form-control {
+    border-color: #E43D12;
+}
+.submit-btn {
+    background-color: black;
+    color: white;
+}
+
+.terms {
+    font-size: 13px;
+    text-align: center;
+    margin: 10px;
+    color: #474747;
+}
+
+.submit-btn:hover {
+    background-color: #E43D12;
+    color: white;
+}
+
+footer{
+    background-color: #474747;
+    color: white;
+}
